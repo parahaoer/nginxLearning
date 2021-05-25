@@ -1,0 +1,38 @@
+2021/05/11 17:29:19 [alert] 9311#0: in http{} test_str=SUPERMAN
+2021/05/11 17:29:19 [alert] 9311#0: in server[name=host1]{} test_str=SUPERMAN
+2021/05/11 17:29:19 [alert] 9311#0: in location[name=/HOST1_loc1]{} test_str=loc1_BANANA
+2021/05/11 17:29:19 [alert] 9311#0: in location[name=/HOST1_loc2]{} test_str=SUPERMAN
+2021/05/11 17:29:19 [alert] 9311#0: in server[name=host2]{} test_str=CAR
+2021/05/11 17:29:19 [alert] 9311#0: in location[name=/50x.html]{} test_str=CAR
+2021/05/11 17:29:19 [alert] 9311#0: in location[name=/index]{} test_str=FOCUS
+2021/05/11 17:29:19 [alert] 9311#0: in location[name=/test]{} test_str=PLANE
+2021/05/11 17:29:19 [notice] 9311#0: using the "epoll" event method
+2021/05/11 17:29:19 [notice] 9311#0: nginx/1.14.2
+2021/05/11 17:29:19 [notice] 9311#0: built by gcc 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.4) 
+2021/05/11 17:29:19 [notice] 9311#0: OS: Linux 3.13.0-24-generic
+2021/05/11 17:29:19 [notice] 9311#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2021/05/11 17:29:19 [notice] 9312#0: start worker processes
+2021/05/11 17:29:19 [notice] 9312#0: start worker process 9313
+2021/05/11 18:48:57 [notice] 9313#0: signal 15 (SIGTERM) received from 10146, exiting
+2021/05/11 18:48:57 [info] 9313#0: epoll_wait() failed (4: Interrupted system call)
+2021/05/11 18:48:57 [notice] 9313#0: exiting
+2021/05/11 18:48:57 [notice] 9313#0: exit
+2021/05/11 18:48:57 [notice] 9312#0: signal 15 (SIGTERM) received from 10146, exiting
+2021/05/11 18:48:57 [notice] 9312#0: signal 17 (SIGCHLD) received from 9313
+2021/05/11 18:48:57 [notice] 9312#0: worker process 9313 exited with code 0
+2021/05/11 18:48:57 [notice] 9312#0: exit
+2021/05/11 18:52:25 [alert] 3770#0: in http{} test_str=SUPERMAN
+2021/05/11 18:52:25 [alert] 3770#0: in server[name=host1]{} test_str=SUPERMAN
+2021/05/11 18:52:25 [alert] 3770#0: in location[name=/HOST1_loc1]{} test_str=loc1_BANANA
+2021/05/11 18:52:25 [alert] 3770#0: in location[name=/HOST1_loc2]{} test_str=SUPERMAN
+2021/05/11 18:52:25 [alert] 3770#0: in server[name=host2]{} test_str=CAR
+2021/05/11 18:52:25 [alert] 3770#0: in location[name=/50x.html]{} test_str=CAR
+2021/05/11 18:52:25 [alert] 3770#0: in location[name=/index]{} test_str=FOCUS
+2021/05/11 18:52:25 [alert] 3770#0: in location[name=/test]{} test_str=PLANE
+2021/05/11 18:52:25 [notice] 3770#0: using the "epoll" event method
+2021/05/11 18:52:25 [notice] 3770#0: nginx/1.14.2
+2021/05/11 18:52:25 [notice] 3770#0: built by gcc 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.4) 
+2021/05/11 18:52:25 [notice] 3770#0: OS: Linux 3.13.0-24-generic
+2021/05/11 18:52:25 [notice] 3770#0: getrlimit(RLIMIT_NOFILE): 4096:4096
+2021/05/11 18:52:25 [notice] 3831#0: start worker processes
+2021/05/11 18:52:25 [notice] 3831#0: start worker process 3832
